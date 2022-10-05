@@ -1,9 +1,10 @@
 import React from 'react';
+import Hero from './components/Hero.js';
 
 const App = () => {
   return (
-    <div>
-      React App
+    <div className='w-full max-w-[1440px] mx-auto bg-white'>
+      <Hero/>
     </div>
   )
 }
