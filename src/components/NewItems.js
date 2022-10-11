@@ -15,10 +15,7 @@ const NewItems = () => {
             </h2>
             <p className='max-w-[245px] lg:mb-12'>{subtitle}</p>
             <div className='hidden lg:flex items-center'>
-              <a
-                className='hover:border-b border-primary lg:items-center font-medium transition-all'
-                href='#'
-              >
+              <a className='hover:border-b border-primary lg:items-center font-medium transition-all' href='#'>
                 {link}
               </a>
               <div className='text-3xl'>{icon}</div>
