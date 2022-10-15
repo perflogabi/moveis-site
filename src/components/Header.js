@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+
+// import logo
 import Logo from '../assets/img/logo.svg';
 // import icons
 import { CgMenuRight, CgClose } from 'react-icons/cg';
@@ -11,9 +13,9 @@ const Header = () => {
   const [bg, setBg] = useState(false);
   const [mobileNav, setMobileNav] = useState(false);
   useEffect(() => {
-   
+    // add event listener
     window.addEventListener('scroll', () => {
-     
+      // when scrollY is bigger than 50px setBg to true, else false
       return window.scrollY > 50 ? setBg(true) : setBg(false);
     });
   });
