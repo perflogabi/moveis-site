@@ -34,34 +34,35 @@ import {
   
   export const navigation = [
     {
-      name: 'home',
-      href: 'home',
+      name: 'início',
+      href: 'início',
     },
     {
-      name: 'about',
-      href: 'about',
+      name: 'móveis',
+      href: 'móveis',
     },
     {
-      name: 'features',
-      href: 'features',
+      name: 'sobre',
+      href: 'sobre',
     },
+    
     {
-      name: 'contact',
-      href: 'contact',
+      name: 'contato',
+      href: 'contato',
     },
   ];
   
   export const hero = {
-    title: 'Creative Home Simpify your Furniture',
+    title: 'Casa criativa Simplifque a sua Mobília',
     subtitle:
-      'Do i have consent to record this meeting gain locaion, root-and-branch, review, nor game plan who’s the goto',
-    buttonText: 'Shop Now',
+      'Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem',
+    buttonText: 'Compre agora',
   };
   
   export const stats = [
     {
       value: '7',
-      text: 'Year Experience',
+      text: 'Anos de Experiência',
     },
     {
       value: '2',
@@ -69,141 +70,141 @@ import {
     },
     {
       value: '10k+',
-      text: 'Furniture sold',
+      text: 'Móveis vendidos',
     },
     {
       value: '260+',
-      text: 'Variant Furniture',
+      text: 'Móveis Variantes',
     },
   ];
   
   export const features = {
     image: <Features1Img />,
-    title: 'We Create your home more aesthetic',
+    title: 'Criamos sua casa mais estética',
     subtitle:
-      'Furniture power is a software as services for multipurpose business management system',
-    buttonText: 'Show Now',
+      'Energia de móveis é um softaware como serviços para sistema de gestão empresarial multiuso',
+    buttonText: 'Compre agora',
     items: [
       {
         icon: <IoIosCheckmarkCircle />,
-        title: 'Valuation Services',
+        title: 'Serviços de Avaliação',
         subtitle:
-          'Sometimes features require a short description.  This can be detailed description',
+          'As vezes, os recursos exigem uma breve descrição.  Isso pode ser descrição detalhada',
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        title: 'Development of Furniture Models',
+        title: 'Desenvolvimento de modelos de móveis',
         subtitle:
-          'Sometimes features require a short description.  This can be detailed description',
+          'As vezes, os recursos exigem uma breve descrição.  Isso pode ser descrição detalhada',
       },
     ],
     feature2: {
       image: <Features2Img />,
-      title: 'The Best Furniture Manufacturer of your choice',
+      title: 'O melhor fabricante de móveis de sua escolha',
       subtitle:
-        'Furnitre power is a software as services for multiperpose business management system, expecially for them who are running two or more business exploree the future Furnitre power is a software as services.',
+        'Energia de móveis é um softaware como serviços para sistema de gestão empresarial multiuso.',
     },
   };
   
   export const newInStore = {
-    title: 'New In Store Now',
-    subtitle: 'Get the latest items immediately with promo prices',
-    link: 'Check all',
+    title: 'Novo na loja agora?',
+    subtitle: 'Obtenha os itens mais recentes imediatamente com preços promocionais',
+    link: 'Verifique tudo',
     icon: <IoIosArrowRoundForward />,
     products: [
       {
-        name: 'chair',
+        name: 'cadeira',
         image: <ChairImg />,
       },
       {
-        name: 'bed',
+        name: 'cama',
         image: <BedImg />,
       },
       {
-        name: 'cupboard',
+        name: 'armário',
         image: <CupboardImg />,
       },
       {
-        name: 'lighting',
+        name: 'iluminação',
         image: <LightingImg />,
       },
     ],
   };
   
   export const products = {
-    title: 'All Products',
+    title: 'Todos os produtos',
     subtitle:
-      'The products we provide only for you as our service are selected from the best products with number 1 quality in the world',
+      'Os produtos que fornecemos apenas para você, pois nosso serviço é selecionado entre os melhores produtos com qualidade numero 1 do mundo',
     pages: [
       {
         productList: [
           {
             image: <Product1Img />,
             icon: <IoMdAddCircle />,
-            name: 'Ceiling Light',
+            name: 'Mesa Centro',
             price: 75,
             oldPrice: 82,
           },
           {
             image: <Product2Img />,
             icon: <IoMdAddCircle />,
-            name: 'Wood Chair',
+            name: 'banco de madeira',
             price: 50,
             oldPrice: 70,
           },
           {
             image: <Product3Img />,
             icon: <IoMdAddCircle />,
-            name: 'Papper Cupboard',
+            name: 'Apoiador de objetos',
             price: 105,
             oldPrice: 120,
           },
           {
             image: <Product4Img />,
             icon: <IoMdAddCircle />,
-            name: 'Ole Gundorse Spring',
+            name: 'poltrona',
             price: 75,
             oldPrice: 82,
           },
           {
             image: <Product5Img />,
             icon: <IoMdAddCircle />,
-            name: 'Treos Seroes 911',
+            name: 'Cadeira de balanço',
             price: 200,
             oldPrice: 210,
           },
           {
             image: <Product6Img />,
             icon: <IoMdAddCircle />,
-            name: 'Multi bilderman slibber',
+            name: 'Conjunto mesa e cadeira',
             price: 45,
             oldPrice: 50,
           },
           {
             image: <Product7Img />,
             icon: <IoMdAddCircle />,
-            name: 'XORA corner desk',
+            name: 'Banqueta',
             price: 320,
             oldPrice: 325,
           },
           {
             image: <Product8Img />,
             icon: <IoMdAddCircle />,
-            name: 'Black Forest Series Wood',
+            name: 'Estante',
             price: 225,
             oldPrice: 240,
           },
           {
             image: <Product9Img />,
             icon: <IoMdAddCircle />,
-            name: 'Papper Cupboard',
+            name: 'Cadeira',
             price: 105,
             oldPrice: 120,
           },
           {
             image: <Product10Img />,
             icon: <IoMdAddCircle />,
-            name: 'Ole Gundorse Spring',
+            name: 'Escrivaninha',
             price: 75,
             oldPrice: 82,
           },
@@ -214,70 +215,70 @@ import {
           {
             image: <Product1Img />,
             icon: <IoMdAddCircle />,
-            name: 'Ceiling Light',
+            name: 'Mesa Centro',
             price: 75,
             oldPrice: 82,
           },
           {
             image: <Product2Img />,
             icon: <IoMdAddCircle />,
-            name: 'Wood Chair',
+            name: 'banco de madeira',
             price: 50,
             oldPrice: 70,
           },
           {
             image: <Product3Img />,
             icon: <IoMdAddCircle />,
-            name: 'Papper Cupboard',
+            name: 'Apoiador de objetos',
             price: 105,
             oldPrice: 120,
           },
           {
             image: <Product4Img />,
             icon: <IoMdAddCircle />,
-            name: 'Ole Gundorse Spring',
+            name: 'poltrona',
             price: 75,
             oldPrice: 82,
           },
           {
             image: <Product5Img />,
             icon: <IoMdAddCircle />,
-            name: 'Treos Seroes 911',
+            name: 'Cadeira de balanço',
             price: 200,
             oldPrice: 210,
           },
           {
             image: <Product6Img />,
             icon: <IoMdAddCircle />,
-            name: 'Multi bilderman slibber',
+            name: 'Conjunto mesa e cadeira',
             price: 45,
             oldPrice: 50,
           },
           {
             image: <Product7Img />,
             icon: <IoMdAddCircle />,
-            name: 'XORA corner desk',
+            name: 'Banqueta',
             price: 320,
             oldPrice: 325,
           },
           {
             image: <Product8Img />,
             icon: <IoMdAddCircle />,
-            name: 'Black Forest Series Wood',
+            name: 'Estante',
             price: 225,
             oldPrice: 240,
           },
           {
             image: <Product9Img />,
             icon: <IoMdAddCircle />,
-            name: 'Papper Cupboard',
+            name: 'Cadeira',
             price: 105,
             oldPrice: 120,
           },
           {
             image: <Product10Img />,
             icon: <IoMdAddCircle />,
-            name: 'Ole Gundorse Spring',
+            name: 'Escrivaninha',
             price: 75,
             oldPrice: 82,
           },
@@ -287,45 +288,45 @@ import {
   };
   
   export const testimonial = {
-    title: 'What people are saying about us',
+    title: 'O que as pessoas estão falando sobre nós',
     image: <TestimonialImg />,
     persons: [
       {
         avatar: <Avatar1Img />,
-        name: 'Josh Smith',
-        occupation: 'Manager of The New York Times',
+        name: 'João Pedro',
+        occupation: 'Gerente de Loja',
         message:
-          '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+          '“Eles têm um toque perfeito para fazer algo tão profissional, interessante e útil para muitas pessoas.”',
       },
       {
         avatar: <Avatar2Img />,
-        name: 'Brandi Johns',
-        occupation: 'Manager of The New York Times',
+        name: 'Bruna Camargo',
+        occupation: 'Gerente de Loja',
         message:
-          '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+          '“Eles têm um toque perfeito para fazer algo tão profissional, interessante e útil para muitas pessoas.”',
       },
       {
         avatar: <Avatar3Img />,
         name: 'Paula Pfeffer',
-        occupation: 'Manager of The New York Times',
+        occupation: 'Gerente de Loja',
         message:
-          '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+          '“Eles têm um toque perfeito para fazer algo tão profissional, interessante e útil para muitas pessoas.”',
       },
       {
         avatar: <Avatar4Img />,
-        name: 'Paula Pfeffer',
-        occupation: 'Manager of The New York Times',
+        name: 'Rafael Santos',
+        occupation: 'Gerente de Loja',
         message:
-          '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+          '“Eles têm um toque perfeito para fazer algo tão profissional, interessante e útil para muitas pessoas.”',
       },
     ],
   };
   
   export const newsletter = {
-    title: 'Get more discount Off your order',
-    subtitle: 'Join our mailing list',
-    placeholder: 'Your email address',
-    buttonText: 'Shop Now',
+    title: 'Obtenha mais descontos no seu pedido',
+    subtitle: 'Junte-se á nossa lista de endereços',
+    placeholder: 'Seu endereço de email',
+    buttonText: 'Compre agora',
   };
   
   export const footer = {
