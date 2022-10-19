@@ -69,11 +69,11 @@ import {
       text: 'Lojas pelo país',
     },
     {
-      value: '10k+',
+      value: '10k',
       text: 'Móveis vendidos',
     },
     {
-      value: '260+',
+      value: '+260',
       text: 'Móveis Variantes',
     },
   ];
