@@ -65,8 +65,8 @@ import {
       text: 'Anos de Experiência',
     },
     {
-      value: '2',
-      text: 'Opened in the country',
+      value: '30',
+      text: 'Lojas pelo país',
     },
     {
       value: '10k+',
